@@ -45,7 +45,7 @@ public class Conexion {
             }catch(IOException e){
                 JOptionPane.showMessageDialog(null,"Error: En la configuracion del programa.", "Atención",JOptionPane.ERROR_MESSAGE);
             }
-            conexion = DriverManager.getConnection("jdbc:mysql://"+servidor,"root","imagine.dragons.2017");
+            conexion = DriverManager.getConnection("jdbc:mysql://"+servidor,"imagenes","img.2019");
             sentencia = conexion.createStatement ();
             try{
                 sentencia.executeQuery ("use PRUEBAS");
